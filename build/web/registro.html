@@ -1,0 +1,121 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Eventos Medellin | EventNow</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+        <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css'>
+        <link href="images/logo2.png" rel="icon">
+    </head>
+
+    <body>
+        <!--HEADER--> 
+        <div class="header-top">
+            <div class="wrap">
+                <div class="logo">
+                   <!--<a href="inicio.html"><img src="images/logo.png" height="100" width="290" /></a>-->
+                </div>
+                <div class="cssmenu">
+                    <nav id="nav" role="navigation">
+                        <a href="#nav" title="Abir Menu">Show</a>
+                        <a href="#" title="Ocultar Menu">Hide</a>
+                        <ul class="clearfix">
+                            <li><a href="index.html">Inicio</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="buttons">
+                    <div class="login_btn">
+                        <a href="login.html">Entrar</a> <a href="registro.html"> Registrarse </a>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="clear"></div>
+                <h2 class="head"> Registrate, <span class="m_1"> es totalmente</span> Gratis! <span class="m_1"></span></h2>
+            </div>
+        </div>
+
+        <!--FORMULARIO DE REGISTRO--> 
+        <div class="main">   
+            <div class="wrap">
+                <div class="section group">
+                    <div class="cont span_2_of_blog">
+                        <div class="login-title">
+                            <h4 class="title">Registro de Usuario</h4>
+                            <div id="loginbox" class="loginbox">
+                                <form action="Controlador/registro.jsp" method="post" name="login" id="login-form">
+                                    <fieldset class="input">
+                                        <p>
+                                            <br>
+                                            <input type="text" name="nombreus" class="inputbox" size="18" autocomplete="off" maxlength="32" required placeholder="Nombre de usuario">
+                                            <br>
+                                            <br>
+                                            <!--nombres-->
+                                            <input type="text" name="nombres" class="inputbox" size="18" autocomplete="off" maxlength="32" required placeholder="Nombres">
+                                        <p>
+                                            <br>
+                                            <!--apellidos-->
+                                            <input type="text" name="apellidos" class="inputbox" size="18" autocomplete="off" maxlength="32" required placeholder="Apellidos">
+                                        <p>
+                                            <br>
+                                            <!--correo electronico-->
+                                            <input type="text" name="correo" class="inputbox" size="18" autocomplete="off" maxlength="32" required placeholder="Correo Electronico">
+                                        </p>
+
+                                        <p>
+                                            <br>
+                                            <!--contraseña-->
+                                            <input type="password" name="password" class="inputbox" size="18" autocomplete="off" maxlength="20" required placeholder="Contraseña">
+                                        </p>
+
+                                        <p>
+                                            <!--terminos-->
+                                            <label class="checkbox">Acepto Los terminos y Contidiciones</label>
+                                            <input type="checkbox"  class="checkbox" value="yes" required>
+                                        <p> ¿ya tienes una cuenta? <a href="login.html"> Ingresa aqui</a></p>
+                                        <br>
+                                        <input type="submit" name="Submit" class="button" value="Registrarme">
+                                    </fieldset>
+                                </form>
+
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+
+        <!--FOOTER-->
+        <div class="footer">
+            <div class="wrap">
+                <div class="footer-menu">
+                    <ul>
+                        <li class="active"><a href="index.html">Inicio</a></li>
+                        <li><a href="#">Acerca de Nosotros</a></li>
+                        <li><a href="#">Terminos de Servicio</a></li>
+                    </ul>
+                </div>
+                <div class="footer-bottom">
+                    <div class="copy">
+                        <p>© 2018 <a href="" target="_blank"> EventNow Todos los derechos reservados</a></p>
+                    </div>
+
+                    <!--Redes-->
+                    <div class="social">
+                        <ul>
+                            <li class="facebook"><a href="#"><span> </span></a></li>
+                            <li class="twitter"><a href="#"><span> </span></a></li>
+                        </ul>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>

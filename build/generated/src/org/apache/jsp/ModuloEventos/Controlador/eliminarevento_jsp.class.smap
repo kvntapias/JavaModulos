@@ -1,0 +1,14 @@
+SMAP
+eliminarevento_jsp.java
+JSP
+*S JSP
+*F
++ 0 eliminarevento.jsp
+ModuloEventos/Controlador/eliminarevento.jsp
+*L
+5,5:49
+10,2:13
+11:53
+13,14:55
+26:69
+*E
